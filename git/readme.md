@@ -82,18 +82,20 @@ git log 查看git提交记录
 git branch命令可以看到当前工作分支
 
 ```
-$ git branch
-* main
+$ git branch	#查看本地分支
+* (HEAD detached from 63bb30d)
+  main
+  test
 ```
 
-
-
-git branch -a命令可以查看当前所有分支
-
-	$ git branch -a
-	* main
-	  remotes/origin/main
-	  remotes/origin/test
+```
+$ git branch -a 	#查看所有分支
+* (HEAD detached from 63bb30d)
+  main
+  test
+  remotes/origin/main
+  remotes/origin/test
+```
 
 
 
