@@ -58,6 +58,14 @@ $ git commit -m "修改段落"
 
 
 
+git push  origin HEAD:分支名	将代码提交到远程分支main上
+
+```
+$ git push origin HEAD:main ##将代码提交到远程分支main上
+```
+
+
+
 git log 查看git提交记录
 
     Author: Terry <047@kiloview.com>
@@ -123,7 +131,7 @@ git fetch + merge (不额外建立本地分支)
 
 ```
 $ git remote -v  ##首先用命令行去查询当前代码仓的所有远程分支；
-$ git fetch origin dev  ##然后用命令行 来获取远端的origin/dev分支的最新代码到本地(假设本地当前分支为dev)；
+$ git fetch origin dev  ##然后用命令行来获取远端的origin/dev分支的最新代码到本地(假设本地当前分支为dev)；
 $ git log -p dev..origin/dev	##接着用命令行去查看本地dev分支和当前分支的版本差异；
 $ git merge origin/dev	##最后用命令行来合并远端分支origin/dev 到当前分支；
 ```
