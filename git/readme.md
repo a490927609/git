@@ -2,7 +2,7 @@
 
 
 
-## **一、master分支代码提交过程**
+## 一、master分支代码提交过程
 
 git log 查看git提交记录
 
@@ -20,13 +20,31 @@ Already up to date.
 
 git status查看本地代码状态，是否有待提交的代码
 
+```
+$ git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+```
+
 git add . 将本地代码全部提交
+
+```
+$ git add .
+```
 
 git commit -m "****" 为本次提交添加注释
 
+```
+$ git commit -m "修改段落"
+[main f6d8db2] 修改段落
+ 1 file changed, 76 insertions(+), 3 deletions(-)
+```
 
 
-## **二、master分支与2.08分支切换方法**
+
+## 二、master分支与其他分支切换
 
 git branch命令可以看到当前工作分支
 
