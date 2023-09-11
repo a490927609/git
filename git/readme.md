@@ -2,7 +2,30 @@
 
 
 
-## 一、master分支代码提交过程
+## 一、git安装后注意事项
+
+1. Git Bash安装完成后，我们可以在桌面或者任何目录下通过右键的方式进入git bash窗口
+
+2. 启动Git Bash窗口后我们简单的测试几个linux命令：
+	
+	```
+	pwd
+	ls
+	ll
+	```
+	
+	
+	
+3. 然后我们来生成下ssh key
+	ssh-keygen -t rsa -b 4096 -C "047@kiloview.com"
+	
+   保存位置默认，密码设置为空，直接敲3次回车就可以了
+   根据提示生成的密钥保存在用户目录下(C:\Users\kiloview\.ssh)的.ssh文件夹中
+   存在id_rsa、id_rsa.pub文件表示已经成功生成了密钥文件
+
+
+
+## 二、master分支代码提交过程
 
 git remote -v 查询当前代码仓库的远程分支路径
 
@@ -77,7 +100,7 @@ git log 查看git提交记录
 
 
 
-## 二、master分支与其他分支切换
+## 三、master分支与其他分支切换
 
 git branch命令可以看到当前工作分支
 
@@ -117,7 +140,7 @@ $ git checkout -b main remotes/origin/main
 
 
 
-## 三、merge分支代码合并
+## 四、merge分支代码合并
 
 git fetch+merge（需要额外的本地分支）不推荐这种方式，因为需要建立并删除这个额外的本地分支；
 
@@ -137,4 +160,12 @@ $ git fetch origin dev  ##然后用命令行来获取远端的origin/dev分支�
 $ git log -p dev..origin/dev	##接着用命令行去查看本地dev分支和当前分支的版本差异；
 $ git merge origin/dev	##最后用命令行来合并远端分支origin/dev 到当前分支；
 ```
+
+
+
+## 五、清除
+
+git clean -n
+
+
 
