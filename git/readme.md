@@ -25,6 +25,16 @@
 
 
 
+ 4. 拉取分支到本地
+
+    ```
+    git  clone  https://github.com/a490927609/yy.git
+    ```
+
+    
+
+
+
 ## 二、master分支代码提交过程
 
 git remote -v 查询当前代码仓库的远程分支路径
@@ -168,4 +178,36 @@ $ git merge origin/dev	##最后用命令行来合并远端分支origin/dev 到�
 git clean -n
 
 
+
+## 六、Git报错解决方案
+
+#### Failed to connect to github.com port 443 解决方案：
+
+配置socks5代理
+
+```
+git config --global http.proxy socks5 192.168.0.11:8118
+git config --global https.proxy socks5 192.168.0.11:8118
+```
+
+配置http代理
+
+```
+git config --global http.proxy 192.168.0.11:8118
+git config --global https.proxy 192.168.0.11:8118
+```
+
+查看代理命令
+
+```
+git config --global --get http.proxy
+git config --global --get https.proxy
+```
+
+取消代理命令
+
+```
+git config --global --unset http.proxy
+git config --global --unset https.proxy
+```
 
