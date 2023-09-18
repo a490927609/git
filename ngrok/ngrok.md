@@ -14,5 +14,5 @@ token=2VI6EmcBoo1wSHtsKJIGEISXMnp_TnQ1sWFgKu83VKb9W87Y
 
 ngrok config add-authtoken 2VI6EmcBoo1wSHtsKJIGEISXMnp_TnQ1sWFgKu83VKb9W87Y
 
-ngrok http 端口
+ngrok http 端口(如：8080)
 
