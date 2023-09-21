@@ -1,0 +1,28 @@
+*** Settings ***
+Library           ../../Python37/Lib/site-packages/MyTest.py
+Library           ../../Python37/Lib/site-packages/RequestsLibrary/
+Library           ../../Python37/Lib/site-packages/DatabaseLibrary/
+Library           ../../Python37/Lib/site-packages/Selenium2Library/
+Library           HttpLibrary.HTTP
+Library           ../../Python37/Lib/site-packages/HttpLibrary/
+Resource          url.txt
+
+*** Test Cases ***
+1.获得设备上的所有网络设备列表
+    ${headers}    create dictionary    Content-Type=application/x-www-form-urlencoded
+    log    测试设备地址为：
+    log    ${url}
+    Comment    ${serialNumber}    get time    epoch    #生成随机数
+    Comment    log    用户名
+    Comment    ${user}    set variable    user${serialNumber}
+    Comment    log    密码
+    Comment    ${password}    set variable    12345678
+    Comment    ${body}    create dictionary    Username=${user}    Password=${password}
+    Comment    log    打印body值：${body}
+    ${rep}    My Get    ${url}/api/v1/getNetInterface.lua    ${headers}
+    log    获取返回值result:
+    ${result}    get_json_value    ${rep}    /Result
+    log    获取返回值status:
+    ${status}    get json value    ${rep}    /Status
+    Run Keyword If    ${result}==200 and ${status}=="OK"    log    用例执行成功，返回信息${rep}
+    Run Keyword If    ${status}!="OK" or ${result}!=200    fail    用例执行失败，打印失败信息${rep}

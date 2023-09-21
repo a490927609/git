@@ -1,0 +1,10 @@
+*** Settings ***
+Library           ../../Python37/Lib/site-packages/MyTest.py
+Library           ../../Python37/Lib/site-packages/RequestsLibrary/
+Library           ../../Python37/Lib/site-packages/DatabaseLibrary/
+Library           ../../Python37/Lib/site-packages/Selenium2Library/
+Library           HttpLibrary.HTTP
+Library           ../../Python37/Lib/site-packages/HttpLibrary/
+Resource          url.txt
+
+*** Test Cases ***

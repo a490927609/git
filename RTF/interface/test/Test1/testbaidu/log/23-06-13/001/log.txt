@@ -1,0 +1,38 @@
+2023-06-13 17:12:22.233	exec/unit.go:38	开始执行robot -d results D:\QS-HF\RTF\interface\test\Test1\testbaidu于2023-06-13 17:12:22。
+2023-06-13 17:12:23.294	exec/unit.go:153	==============================================================================
+
+2023-06-13 17:12:23.306	exec/unit.go:153	Testbaidu                                                                     
+
+2023-06-13 17:12:23.306	exec/unit.go:153	==============================================================================
+
+2023-06-13 17:12:24.790	exec/unit.go:153	Testbaidu.Suite1                                                              
+
+2023-06-13 17:12:24.790	exec/unit.go:153	==============================================================================
+
+2023-06-13 17:12:25.031	exec/unit.go:153	baiduApi                                                              | PASS |
+
+2023-06-13 17:12:25.031	exec/unit.go:153	------------------------------------------------------------------------------
+
+2023-06-13 17:12:27.707	exec/unit.go:153	baidu                                                                 | PASS |
+
+2023-06-13 17:12:27.707	exec/unit.go:153	------------------------------------------------------------------------------
+
+2023-06-13 17:12:27.708	exec/unit.go:153	Testbaidu.Suite1                                                      | PASS |
+
+2023-06-13 17:12:27.708	exec/unit.go:153	2 tests, 2 passed, 0 failed
+
+2023-06-13 17:12:27.708	exec/unit.go:153	==============================================================================
+
+2023-06-13 17:12:27.708	exec/unit.go:153	Testbaidu                                                             | PASS |
+
+2023-06-13 17:12:27.796	exec/unit.go:153	2 tests, 2 passed, 0 failed
+
+2023-06-13 17:12:27.796	exec/unit.go:153	==============================================================================
+
+2023-06-13 17:12:27.796	exec/unit.go:153	Output:  D:\QS-HF\RTF\interface\test\Test1\testbaidu\results\output.xml
+
+2023-06-13 17:12:27.913	exec/unit.go:153	Log:     D:\QS-HF\RTF\interface\test\Test1\testbaidu\results\log.html
+
+2023-06-13 17:12:27.938	exec/unit.go:153	Report:  D:\QS-HF\RTF\interface\test\Test1\testbaidu\results\report.html
+
+2023-06-13 17:12:30.128	exec/unit.go:67	结束执行robot -d results D:\QS-HF\RTF\interface\test\Test1\testbaidu于2023-06-13 17:12:22。

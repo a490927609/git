@@ -1,0 +1,7 @@
+
+
+设置支持中文：
+Lib\site-packages\robot\utils\encodingsniffer.py
+
+默认：DEFAULT_CONSOLE_ENCODING = 'cp437'
+修改为：DEFAULT_CONSOLE_ENCODING = 'cp936'

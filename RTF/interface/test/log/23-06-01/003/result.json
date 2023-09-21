@@ -1,0 +1,49 @@
+{
+	"name": "",
+	"testEnv": "windows",
+	"testType": "unit",
+	"testTool": "robotframework",
+	"buildTool": "",
+	"testCommand": "robot -d results Test1/testbaidu",
+	"workspaceType": "",
+	"workspacePath": "",
+	"submitResult": true,
+	"zentaoData": "",
+	"buildUrl": "",
+	"log": "2023-06-01 15:35:41.998\texec/unit.go:38\t开始执行robot -d results Test1/testbaidu于2023-06-01 15:35:41。\n2023-06-01 15:35:44.128\texec/unit.go:153\t==============================================================================\r\n\n2023-06-01 15:35:44.140\texec/unit.go:153\tTestbaidu                                                                     \r\n\n2023-06-01 15:35:44.140\texec/unit.go:153\t==============================================================================\r\n\n2023-06-01 15:35:45.999\texec/unit.go:153\tTestbaidu.Suite1                                                              \r\n\n2023-06-01 15:35:45.999\texec/unit.go:153\t==============================================================================\r\n\n2023-06-01 15:35:47.164\texec/unit.go:153\tbaiduApi                                                              | PASS |\r\n\n2023-06-01 15:35:47.165\texec/unit.go:153\t------------------------------------------------------------------------------\r\n\n2023-06-01 15:35:50.420\texec/unit.go:153\tbaidu                                                                 | PASS |\r\n\n2023-06-01 15:35:50.420\texec/unit.go:153\t------------------------------------------------------------------------------\r\n\n2023-06-01 15:35:50.422\texec/unit.go:153\tTestbaidu.Suite1                                                      | PASS |\r\n\n2023-06-01 15:35:50.422\texec/unit.go:153\t2 tests, 2 passed, 0 failed\r\n\n2023-06-01 15:35:50.422\texec/unit.go:153\t==============================================================================\r\n\n2023-06-01 15:35:50.423\texec/unit.go:153\tTestbaidu                                                             | PASS |\r\n\n2023-06-01 15:35:50.423\texec/unit.go:153\t2 tests, 2 passed, 0 failed\r\n\n2023-06-01 15:35:50.423\texec/unit.go:153\t==============================================================================\r\n\n2023-06-01 15:35:50.426\texec/unit.go:153\tOutput:  D:\\QSHF\\PYTHON\\interface\\test\\results\\output.xml\r\n\n2023-06-01 15:35:50.575\texec/unit.go:153\tLog:     D:\\QSHF\\PYTHON\\interface\\test\\results\\log.html\r\n\n2023-06-01 15:35:50.605\texec/unit.go:153\tReport:  D:\\QSHF\\PYTHON\\interface\\test\\results\\report.html\r\n\n2023-06-01 15:35:52.822\texec/unit.go:67\t结束执行robot -d results Test1/testbaidu于2023-06-01 15:35:42。",
+	"pass": 2,
+	"fail": 0,
+	"skip": 0,
+	"total": 2,
+	"startTime": 1685604941,
+	"endTime": 1685604950,
+	"duration": 1,
+	"unitResult": [
+		{
+			"title": "baiduApi",
+			"testSuite": "Testbaidu.Suite1",
+			"startTime": 1685604946,
+			"endTime": 1685604947,
+			"duration": 1,
+			"failure": null,
+			"errorType": "",
+			"errorContent": "",
+			"id": 1,
+			"cid": 0,
+			"status": "pass"
+		},
+		{
+			"title": "baidu",
+			"testSuite": "Testbaidu.Suite1",
+			"startTime": 1685604947,
+			"endTime": 1685604950,
+			"duration": 3,
+			"failure": null,
+			"errorType": "",
+			"errorContent": "",
+			"id": 2,
+			"cid": 0,
+			"status": "pass"
+		}
+	]
+}

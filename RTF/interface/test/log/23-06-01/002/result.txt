@@ -1,0 +1,5 @@
+exec/report-unit.go:149	2023-06-01 11:18:17 执行2个用例，耗时3秒。2(100.0%) 通过，0(0.0%) 失败，0(0.0%) 忽略。
+exec/report-unit.go:164	(1/2) pass [Testbaidu.Suite1] [1. baiduApi] (0.000s)
+exec/report-unit.go:164	(2/2) pass [Testbaidu.Suite1] [2. baidu] (2.000s)
+exec/report-unit.go:178	                    报告D:\QSHF\PYTHON\interface\test\log\23-06-01\002\result.txt。
+
