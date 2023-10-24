@@ -1,0 +1,14 @@
+# This is the network config written by 'subiquity'
+network:
+  ethernets:
+    ens33:
+      addresses: [192.168.43.214/24]
+      #addresses: []
+      gateway4: 192.168.43.254
+      dhcp4: no
+      #dhcp4: true
+      nameservers:
+        addresses: [8.8.8.8]
+      optional: true
+  renderer: networkd
+  version: 2

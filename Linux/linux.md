@@ -28,7 +28,50 @@ s/deb/deb_/g
 %s+http://cn.archive.ubuntu.com/ubuntu+http://mirrors.aliyun.com+
 ```
 
+#### 修改文件名称：
 
+```
+mv [旧文件名] [新文件名]			#修改文件名称
+```
+
+
+
+
+
+#### 用户组：
+
+```
+cat /etc/group					#查询用户组
+```
+
+```
+sudo gpasswd -a $USER docker	#将当前用户加入“docker”用户组
+								#-a : 添加用户到组
+								#-d : 从组删除用户
+								#-A：指定管理员
+								#-M：指定组成员和-A的用途差不多
+								#-r：删除密码
+								#-R：限制用户登入组，只有组中的成员才可以用newgrp加入该组
+```
+
+```
+newgrp docker					#切换到docker用户组
+```
+
+
+
+
+
+**Shutdown命令使用详解：**
+
+```
+1)shutdown -h now 现在立即关机
+2)shutdown -r now 现在立即重启
+3)shutdown -r +3 三分钟后重启
+4)shutdown -h +3 “The System will shutdown after 3 minutes” 提示使用者将在三分钟后关机
+5)shutdown -r 21:00 在21:00时将重启计算机
+6)shutdown -r 20:30 & 可以将在20:30时重启的任务放到后台去，用户可以继续操作终端
+```
 
 
 
@@ -43,7 +86,7 @@ $ ls /etc/netplan/
 00-installer-config.yaml
 ```
 
-件的内容：
+文件的内容：
 
 ```text
 $ cat /etc/netplan/00-installer-config.yaml
