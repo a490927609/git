@@ -4,7 +4,9 @@ network:
     ens33:
       addresses: [192.168.43.214/24]
       #addresses: []
-      gateway4: 192.168.43.254
+      routes:
+        - to: default
+          via: 192.168.43.254
       dhcp4: no
       #dhcp4: true
       nameservers:

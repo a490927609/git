@@ -1,0 +1,23 @@
+
+
+
+
+服务器 192.168.0.6
+用户名 kiloview，密码 KiloView001
+
+进去后，要 sudo su 进入root账号（输入kiloview的密码）
+
+
+
+15:30禅道安装在 /opt/zbox下。mysql服务器在本地，连接用户名是root，密码应该是默认的123456
+
+
+
+MySQL访问地址：
+http://192.168.0.6/adminer		root	123456
+
+
+
+
+禅道日志：
+zentao(pro/ep/pms)/config/my.php中debug的值改成true  重新操作一下 看日志文件 zentao(pms/ep/pro)/tmp/log/php开头的今天的文件有什么报错。注：不要找sql开头的文件
