@@ -18,6 +18,9 @@ http://192.168.0.6/adminer		root	123456
 
 
 
+API:
+http://192.168.0.6/zentao/api.php/v1/products
+
 
 禅道日志：
 zentao(pro/ep/pms)/config/my.php中debug的值改成true  重新操作一下 看日志文件 zentao(pms/ep/pro)/tmp/log/php开头的今天的文件有什么报错。注：不要找sql开头的文件
