@@ -56,6 +56,8 @@ Already up to date.
 
 ```
 $ git pull origin master ##拉取远端origin/master分支并合并到当前分支。
+$ git pull origin master --allow-unrelated-histories ##让git允许提交不关联的历史代码。
+
 $ git pull origin test   ##即拉取远端origin/test分支合并到当前分支。  
 ```
 
