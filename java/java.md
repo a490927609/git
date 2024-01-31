@@ -27,11 +27,11 @@
 
 6. 启动java程序：
 
-   ​    java -jar jenkins2.414.1-LTS.war --httpPort=8999 
+   ​    java -jar jenkins.war --httpPort=8999 
 
-   ​	java -jar jenkins2.414.1-LTS.war --httpPort=8999 &    命令窗口关闭时，xxx.jar依然可以运行
+   ​	java -jar jenkins.war --httpPort=8999 &    命令窗口关闭时，xxx.jar依然可以运行
 
-   ​	java -jar jenkins2.414.1-LTS.war --httpPort=8999  > system.log 2>error.log &	标准日志输出到system.log，错误日志输出到error.log 
+   ​	java -jar jenkins.war --httpPort=8999  1> system.log 2>error.log &	标准日志输出到system.log，错误日志输出到error.log 
 
    ​    0 标准输入(一般是键盘)
 
