@@ -1,9 +1,24 @@
+1. 下载地址：
+
+   https://www.jenkins.io/download/
 
 
-1. 启动命令：
-java -jar jenkins2.414.1-LTS.war --httpPort=8999
 
 
+
+1. 启动命令：   
+
+  ​	java -jar jenkins.war --httpPort=8999 
+
+  ​	java -jar jenkins.war --httpPort=8999 &    命令窗口关闭时，xxx.jar依然可以运行
+
+  ​	java -jar jenkins.war --httpPort=8999  1> system.log 2>error.log &	标准日志输出到system.log，错误日志输出到error.log 
+
+  ​    0 标准输入(一般是键盘)
+
+  ​	1 标准输出(一般是显示器，是用户终端控制台)
+
+  ​	2 标准错误(错误信息输出)
 
 
 
