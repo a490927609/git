@@ -1,6 +1,14 @@
-1. 下载地址：
 
-   https://www.jenkins.io/download/
+
+
+
+
+
+# 一.下载安装启动
+
+1.载地址：
+
+https://www.jenkins.io/download/
 
 
 
@@ -60,3 +68,48 @@ hufei@12
    ```
 
    
+
+# 二.设置定时任务
+
+```
+https://blog.csdn.net/IT_LanTian/article/details/123049778
+```
+
+
+
+# 二.远程Windows
+
+1. Jenkins远程连接Windows执行命令
+
+```
+https://blog.csdn.net/v781423070/article/details/131326930
+```
+
+2. windows安装OpenSSH
+
+   ```
+   https://blog.csdn.net/v781423070/article/details/131322758
+   ```
+
+3. 适用于 Windows 的 OpenSSH 入门
+
+```
+https://learn.microsoft.com/zh-cn/windows-server/administration/openssh/openssh_install_firstuse?tabs=gui
+```
+
+
+
+# 三.疑难杂症解决
+
+1.忘记Jenkins管理员密码的解决办法
+
+```
+https://blog.csdn.net/jlminghui/article/details/54952148
+```
+
+2.gitee连接Jenkins，webhook返回404问题
+
+```
+https://blog.csdn.net/weixin_58887621/article/details/135242286
+```
+

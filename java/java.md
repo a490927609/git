@@ -4,9 +4,13 @@
 
    ​	https://www.oracle.com/java/technologies/downloads
 
+   
+
 2. java解压：
 
    ​	tar -zcvf XXX.tar.gz
+
+   
 
 3. java环境变量配置：
 
@@ -17,13 +21,19 @@
    ​	export CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar:$JAVA_HOME/lib:$JRE_HOME/lib/rt.jar:$JRE_HOME/lib/ext:$JRE_HOME/lib:$CLASSPATH
    ​	export PATH=$JAVA_HOME/bin:$JRE_HOME/bin:$PATH
 
+   
+
 4. 配置生效:
 
    ​	source /etc/profile
 
+   
+
 5. java 检测:
 
    ​	java -version
+
+   
 
 6. 启动java程序：
 

@@ -32,8 +32,13 @@
     ```
 
     
-
-
+    
+    ```
+    git config --global user.name "Terry"
+    git config --global user.email "490927609@qq.com"
+    ```
+    
+    
 
 ## 二、master分支代码提交过程
 
